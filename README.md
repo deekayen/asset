@@ -3,7 +3,9 @@ Asset keyboard layouts
 
 Asset keyboard layout (new) originally proposed by David Piepgrass at http://millikeys.sourceforge.net/asset/.
 
-The files in the project at http://github.com/deekayen/asset for Mac and Xorg are by David Norman, but follow all the specifications outlined by David Piepgrass.
+The files in the project at http://github.com/deekayen/asset are by David Norman, but follow all the specifications outlined by David Piepgrass on November 13, 2006.
+
+To help with a cold-turkey conversion to Asset, try printing the included Asset layout image as a desk reference.
 
 ## Important design notes
 
