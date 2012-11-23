@@ -1,7 +1,7 @@
 Asset keyboard layouts
 ========================
 
-Asset keyboard layout (new) originally proposed by David Piepgrass at http://millikeys.sourceforge.net/asset/.
+Asset keyboard layout originally proposed by David Piepgrass at http://millikeys.sourceforge.net/asset/ and http://qism.blogspot.com/2006/11/asset-vs-colemak.html.
 
 The files in the project at http://github.com/deekayen/asset are by David Norman, but follow all the specifications outlined by David Piepgrass on November 13, 2006.
 
