@@ -1,0 +1,90 @@
+// Asset Keyboard Layout symbols for xkb on X.Org Server 7.x
+// Designed by David Piepgrass. http://millikeys.sourceforge.net/asset/
+
+partial alphanumeric_keys
+xkb_symbols "asset" {
+
+    name[Group1]= "English (Asset)";
+
+    include "us(basic)"
+
+    // Alphanumeric section
+    key <AD01> {  [   q,  Q   ] };
+    key <AD02> {  [   w,  W   ] };
+    key <AD03> {  [   j,  J   ] };
+    key <AD04> {  [   f,  F   ] };
+    key <AD05> {  [   g,  G   ] };
+    key <AD06> {  [   y,  Y   ] };
+    key <AD07> {  [   p,  P   ] };
+    key <AD08> {  [   u,  U   ] };
+    key <AD09> {  [   l,  L   ] };
+    key <AD10> {  [   semicolon,  colon   ] };
+
+    key <AC01> {  [   a,  A   ] };
+    key <AC02> {  [   s,  S   ] };
+    key <AC03> {  [   e,  E   ] };
+    key <AC04> {  [   t,  T   ] };
+    key <AC05> {  [   d,  D   ] };
+    key <AC06> {  [   h,  H   ] };
+    key <AC07> {  [   n,  N   ] };
+    key <AC08> {  [   i,  I   ] };
+    key <AC09> {  [   o,  O   ] };
+    key <AC10> {  [   r,  R   ] };
+
+    key <AB01> {  [   z,  Z   ] };
+    key <AB02> {  [   x,  X   ] };
+    key <AB03> {  [   c,  C   ] };
+    key <AB04> {  [   v,  V   ] };
+    key <AB05> {  [   b,  B   ] };
+    key <AB06> {  [   k,  K   ] };
+    key <AB07> {  [   m,  M   ] };
+    // End alphanumeric section
+
+    key <CAPS> { [    BackSpace,       Escape,       BackSpace,        BackSpace ] };
+
+    include "level3(ralt_switch)"
+};
+
+partial alphanumeric_keys
+xkb_symbols "asset-intl" {
+
+    name[Group1]= "English (Asset, international with dead keys)";
+
+    include "us(intl)"
+
+    // Alphanumeric section
+    key <AD01> { [     q,          Q,    adiaeresis,       Adiaeresis ] };
+    key <AD02> { [     w,          W,           eth,              ETH ] };
+    key <AD03> { [     j,          J,    registered,       registered ] };
+    key <AD04> { [     f,          F,         aring,            Aring ] };
+    key <AD05> { [     g,          G,             b,                B ] };
+    key <AD06> { [     y,          Y,             j,                J ] };
+    key <AD07> { [     p,          P,             f,                F ] };
+    key <AD08> { [     u,          U,        uacute,           Uacute ] };
+    key <AD09> { [     l,          L,    odiaeresis,       Odiaeresis ] };
+    key <AD10> { [ semicolon,  colon,     paragraph,           degree ] };
+
+    key <AC01> { [     a,          A,        aacute,           Aacute ] };
+    key <AC02> { [     s,          S,        ssharp,          section ] };
+    key <AC03> { [     e,          E,             h,                H ] };
+    key <AC04> { [     t,          T,         thorn,            THORN ] };
+    key <AC05> { [     d,          D,             g,                G ] };
+    key <AC06> { [     h,          H,    udiaeresis,       Udiaeresis ] };
+    key <AC07> { [     n,          N,        ntilde,           Ntilde ] };
+    key <AC08> { [     i,          I,        eacute,           Eacute ] };
+    key <AC09> { [     o,          O,        oacute,           Oacute ] };
+    key <AC10> { [     r,          R,        iacute,           Iacute ] };
+
+    key <AB01> { [     z,          Z,            ae,               AE ] };
+    key <AB02> { [     x,          X,             x,                X ] };
+    key <AB03> { [     c,          C,            mu,               mu ] };
+    key <AB04> { [     v,          V,     copyright,             cent ] };
+    key <AB05> { [     b,          B,             v,                V ] };
+    key <AB06> { [     k,          K,            oe,               OE ] };
+    key <AB07> { [     m,          M,        oslash,         Ooblique ] };
+    // End alphanumeric section
+
+    key <CAPS> { [ BackSpace, Escape,     BackSpace,        BackSpace ] };
+
+    include "level3(ralt_switch)"
+};
