@@ -1,7 +1,7 @@
 # $FreeBSD$
 # Based on FreeBSD's us.iso.kbd
-# http://workman.ws
-# http://www.workmanlayout.com
+# http://millikeys.sourceforge.net/asset/
+# https://github.com/deekayen/asset
 #                                                         alt
 # scan                       cntrl          alt    alt   cntrl lock
 # code  base   shift  cntrl  shift  alt    shift  cntrl  shift state
